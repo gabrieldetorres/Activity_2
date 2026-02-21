@@ -1,0 +1,45 @@
+namespace De_Torres
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            Console.WriteLine("Time in/Time out");
+
+            Console.WriteLine("Enter Employee ID");
+            int id = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("Enter Employee name");
+            string name = Console.ReadLine();
+
+
+            
+            Console.Write("Enter Time In:  ");
+            TimeSpan timein = TimeSpan.Parse(Console.ReadLine());
+
+            
+            Console.Write("Enter Time Out: ");
+            TimeSpan timeout = TimeSpan.Parse(Console.ReadLine());
+
+           
+           
+
+
+
+
+
+              Console.WriteLine();
+              Console.WriteLine("*****RECORDS*******");
+              Console.WriteLine("Employee ID: " + id);
+              Console.WriteLine("Employee Name: " + name);
+              Console.WriteLine("Time In:  " + timein.ToString());
+              Console.WriteLine("Time Out:  " + timeout.ToString());
+
+
+
+        }
+    }
+}
+
