@@ -23,12 +23,7 @@ namespace De_Torres
             Console.Write("Enter Time Out: ");
             TimeSpan timeout = TimeSpan.Parse(Console.ReadLine());
 
-           
-           
-
-
-
-
+      
 
               Console.WriteLine();
               Console.WriteLine("*****RECORDS*******");
